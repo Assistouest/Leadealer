@@ -1,0 +1,1113 @@
+.leadealer-builder {
+	margin: -6px -12px -12px;
+	background: #f6f7f7;
+	color: #1d2327;
+}
+
+.leadealer-builder__topbar {
+	display: grid;
+	grid-template-columns: minmax(220px, 1fr) auto auto;
+	align-items: center;
+	gap: 18px;
+	min-height: 58px;
+	padding: 10px 16px;
+	background: #fff;
+	border-bottom: 1px solid #dcdcde;
+}
+
+.leadealer-builder__topbar > div:first-child {
+	display: grid;
+	gap: 2px;
+}
+
+.leadealer-builder__topbar > div:first-child span {
+	color: #646970;
+	font-size: 12px;
+}
+
+.leadealer-builder__devices {
+	display: flex;
+	padding: 3px;
+	background: #f0f0f1;
+	border-radius: 7px;
+}
+
+.leadealer-builder__device {
+	display: inline-flex;
+	align-items: center;
+	gap: 5px;
+	padding: 6px 9px;
+	border: 0;
+	border-radius: 5px;
+	background: transparent;
+	color: #50575e;
+	cursor: pointer;
+}
+
+.leadealer-builder__device.is-active {
+	background: #fff;
+	color: #135e96;
+	box-shadow: 0 1px 2px rgba(0,0,0,.08);
+}
+
+.leadealer-builder__history {
+	display: flex;
+	gap: 5px;
+}
+
+.leadealer-builder__workspace {
+	display: grid;
+	grid-template-columns: 190px minmax(420px, 1fr) 300px;
+	min-height: 650px;
+}
+
+.leadealer-builder__palette,
+.leadealer-builder__inspector {
+	background: #fff;
+}
+
+.leadealer-builder__palette {
+	padding: 16px 12px;
+	border-right: 1px solid #dcdcde;
+}
+
+.leadealer-builder__palette h3,
+.leadealer-builder__inspector h3 {
+	margin: 0;
+	font-size: 14px;
+}
+
+.leadealer-builder__palette > p {
+	margin: 4px 0 14px;
+	color: #646970;
+	font-size: 12px;
+}
+
+.leadealer-builder__templates {
+	display: grid;
+	gap: 8px;
+}
+
+.leadealer-builder__template {
+	display: grid;
+	grid-template-columns: 28px minmax(0, 1fr);
+	align-items: start;
+	gap: 8px;
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #c3c4c7;
+	border-radius: 7px;
+	background: #f6f7f7;
+	color: #1d2327;
+	text-align: left;
+	cursor: pointer;
+}
+
+.leadealer-builder__template:hover,
+.leadealer-builder__template:focus-visible {
+	border-color: #2271b1;
+	background: #fff;
+	box-shadow: 0 0 0 1px #2271b1;
+	outline: 0;
+}
+
+.leadealer-builder__template .dashicons {
+	width: 24px;
+	height: 24px;
+	font-size: 24px;
+	color: #2271b1;
+}
+
+.leadealer-builder__template > span:last-child {
+	display: grid;
+	gap: 3px;
+	min-width: 0;
+}
+
+.leadealer-builder__template strong {
+	font-size: 12px;
+	line-height: 1.3;
+}
+
+.leadealer-builder__template small {
+	color: #646970;
+	font-size: 10px;
+	line-height: 1.35;
+}
+
+.leadealer-builder__palette-separator {
+	height: 1px;
+	margin: 16px 0;
+	background: #dcdcde;
+}
+
+.leadealer-builder__field-types {
+	display: grid;
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+	gap: 7px;
+}
+
+.leadealer-builder__add {
+	display: grid;
+	justify-items: center;
+	gap: 5px;
+	min-height: 66px;
+	padding: 9px 5px;
+	border: 1px solid #dcdcde;
+	border-radius: 7px;
+	background: #fff;
+	color: #1d2327;
+	font-size: 11px;
+	cursor: pointer;
+}
+
+.leadealer-builder__add:hover,
+.leadealer-builder__add:focus-visible {
+	border-color: #2271b1;
+	color: #135e96;
+	box-shadow: 0 0 0 1px #2271b1;
+	outline: 0;
+}
+
+.leadealer-builder__add .dashicons {
+	width: 22px;
+	height: 22px;
+	font-size: 22px;
+}
+
+.leadealer-builder__stage {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	padding: 28px;
+	overflow: auto;
+	background-color: #f0f2f4;
+	background-image: radial-gradient(#c9ccd0 .7px, transparent .7px);
+	background-size: 16px 16px;
+}
+
+.leadealer-builder__viewport {
+	width: 100%;
+	max-width: 860px;
+	min-height: 520px;
+	padding: 30px;
+	box-sizing: border-box;
+	background: #fff;
+	border: 1px solid #dcdcde;
+	border-radius: 10px;
+	box-shadow: 0 4px 18px rgba(0,0,0,.06);
+	transition: max-width .2s ease;
+}
+
+.leadealer-builder__viewport[data-device="tablet"] { max-width: 650px; }
+.leadealer-builder__viewport[data-device="mobile"] { max-width: 390px; }
+
+.leadealer-builder__canvas {
+	display: grid;
+	grid-template-columns: repeat(12, minmax(0, 1fr));
+	gap: 16px;
+}
+
+.leadealer-builder__empty {
+	grid-column: 1 / -1;
+	display: grid;
+	justify-items: center;
+	align-content: center;
+	min-height: 400px;
+	padding: 30px;
+	border: 2px dashed #c3c4c7;
+	border-radius: 9px;
+	color: #646970;
+	text-align: center;
+}
+
+.leadealer-builder__empty .dashicons {
+	width: 42px;
+	height: 42px;
+	margin-bottom: 10px;
+	font-size: 42px;
+	color: #a7aaad;
+}
+
+.leadealer-builder__empty strong { color: #1d2327; font-size: 16px; }
+.leadealer-builder__empty p { max-width: 360px; margin: 6px 0 0; }
+
+.leadealer-builder__preview-field {
+	position: relative;
+	min-width: 0;
+	padding: 36px 12px 12px;
+	border: 1px solid transparent;
+	border-radius: 8px;
+	background: #fff;
+	cursor: pointer;
+	transition: border-color .12s ease, box-shadow .12s ease, opacity .12s ease;
+}
+
+.leadealer-builder__preview-field:hover {
+	border-color: #a7aaad;
+}
+
+.leadealer-builder__preview-field.is-selected {
+	border-color: #2271b1;
+	box-shadow: 0 0 0 1px #2271b1;
+}
+
+.leadealer-builder__preview-field.is-dragging { opacity: .35; }
+.leadealer-builder__preview-field.is-drop-target { box-shadow: inset 4px 0 0 #2271b1; }
+
+.leadealer-builder__preview-toolbar {
+	position: absolute;
+	top: 5px;
+	left: 7px;
+	right: 5px;
+	display: flex;
+	align-items: center;
+	gap: 4px;
+	min-height: 24px;
+	color: #646970;
+	font-size: 11px;
+}
+
+.leadealer-builder__preview-toolbar .dashicons {
+	width: 16px;
+	height: 16px;
+	font-size: 16px;
+}
+
+.leadealer-builder__drag {
+	font-weight: 700;
+	letter-spacing: -2px;
+	cursor: grab;
+}
+
+.leadealer-builder__preview-type { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.leadealer-builder__preview-span { margin-left: auto; color: #8c8f94; }
+
+.leadealer-builder__preview-toolbar button {
+	border: 0;
+	background: transparent;
+	color: #646970;
+	cursor: pointer;
+	font-size: 15px;
+	line-height: 1;
+}
+
+.leadealer-builder__preview-toolbar button:hover { color: #b32d2e; }
+
+.leadealer-builder__preview-label {
+	margin-bottom: 6px;
+	font-weight: 600;
+	font-size: 13px;
+}
+
+.leadealer-builder__preview-label span { color: #b32d2e; }
+
+.leadealer-builder__preview-description {
+	margin-top: 6px;
+	color: #646970;
+	font-size: 11px;
+}
+
+.leadealer-builder__mock-input,
+.leadealer-builder__mock-phone > *,
+.leadealer-builder__mock-check,
+.leadealer-builder__mock-choices {
+	box-sizing: border-box;
+	min-height: 38px;
+	padding: 9px 10px;
+	border: 1px solid #8c8f94;
+	border-radius: 5px;
+	background: #fff;
+	color: #8c8f94;
+	font-size: 12px;
+}
+
+.leadealer-builder__mock-input {
+	display: flex;
+	justify-content: space-between;
+}
+
+.leadealer-builder__mock-textarea { min-height: 88px; }
+
+.leadealer-builder__mock-message {
+	position: relative;
+	min-height: 94px;
+	margin: 2px 0 8px;
+	padding: 14px 16px;
+	border-color: #c3c4c7;
+	border-radius: 22px 22px 22px 10px;
+	background: #f6f7f7;
+	line-height: 1.5;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, .04);
+}
+
+.leadealer-builder__mock-message::after {
+	content: "";
+	position: absolute;
+	bottom: -4px;
+	left: 16px;
+	width: 14px;
+	height: 14px;
+	border-left: 1px solid #c3c4c7;
+	border-bottom: 1px solid #c3c4c7;
+	border-bottom-left-radius: 4px;
+	background: #f6f7f7;
+	transform: rotate(-32deg) skew(-8deg, -8deg);
+}
+.leadealer-builder__mock-phone { display: grid; grid-template-columns: 66px 1fr; gap: 7px; }
+.leadealer-builder__mock-phone > * { min-width: 0; }
+.leadealer-builder__mock-choices { display: grid; gap: 7px; border-color: transparent; padding-inline: 0; }
+.leadealer-builder__mock-check { border-color: transparent; padding-inline: 0; color: #1d2327; }
+
+.leadealer-builder__inspector {
+	padding: 16px;
+	border-left: 1px solid #dcdcde;
+	overflow: auto;
+}
+
+.leadealer-builder__inspector-head {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+	gap: 10px;
+	margin-bottom: 16px;
+}
+
+.leadealer-builder__inspector-head > div {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+}
+
+.leadealer-builder__inspector-head strong,
+.leadealer-builder__inspector-head small { display: block; }
+.leadealer-builder__inspector-head small { margin-top: 2px; color: #646970; }
+.leadealer-builder__inspector-head > button { border: 0; background: transparent; cursor: pointer; font-size: 22px; color: #646970; }
+
+.leadealer-control {
+	display: grid;
+	gap: 5px;
+	margin: 0 0 13px;
+}
+
+.leadealer-control > span { font-weight: 600; font-size: 12px; }
+.leadealer-control input,
+.leadealer-control textarea { width: 100%; box-sizing: border-box; }
+
+.leadealer-toggle {
+	display: flex;
+	align-items: flex-start;
+	gap: 8px;
+	margin: 14px 0;
+}
+
+.leadealer-builder__section {
+	margin-top: 20px;
+	padding-top: 16px;
+	border-top: 1px solid #dcdcde;
+}
+
+.leadealer-builder__section-title {
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+	margin-bottom: 8px;
+	font-weight: 600;
+}
+
+.leadealer-builder__section-title small { color: #646970; font-weight: 400; }
+.leadealer-builder__section p,
+.leadealer-builder__tip { color: #646970; font-size: 11px; line-height: 1.5; }
+
+.leadealer-builder__widths {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 5px;
+}
+
+.leadealer-builder__widths button {
+	padding: 7px 4px;
+	border: 1px solid #c3c4c7;
+	border-radius: 5px;
+	background: #fff;
+	cursor: pointer;
+}
+
+.leadealer-builder__widths button.is-active {
+	border-color: #2271b1;
+	background: #f0f6fc;
+	color: #135e96;
+	box-shadow: 0 0 0 1px #2271b1;
+}
+
+.leadealer-builder__advanced {
+	margin-top: 18px;
+	padding-top: 14px;
+	border-top: 1px solid #dcdcde;
+}
+
+.leadealer-builder__advanced summary {
+	margin-bottom: 12px;
+	font-weight: 600;
+	cursor: pointer;
+}
+
+.leadealer-builder__danger {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 20px;
+	padding-top: 14px;
+	border-top: 1px solid #dcdcde;
+}
+
+@media (max-width: 1250px) {
+	.leadealer-builder__workspace { grid-template-columns: 165px minmax(360px, 1fr) 270px; }
+	.leadealer-builder__field-types { grid-template-columns: 1fr; }
+	.leadealer-builder__device span:last-child { display: none; }
+}
+
+@media (max-width: 1000px) {
+	.leadealer-builder__workspace { grid-template-columns: 150px minmax(350px, 1fr); }
+	.leadealer-builder__inspector { grid-column: 1 / -1; border-left: 0; border-top: 1px solid #dcdcde; }
+	.leadealer-builder__topbar { grid-template-columns: 1fr auto; }
+	.leadealer-builder__history { display: none; }
+}
+
+.leadealer-builder__preview-field.is-conditional {
+	border-style: dashed;
+}
+
+.leadealer-builder__condition-badge {
+	display: inline-flex;
+	align-items: center;
+	gap: 2px;
+	max-width: 120px;
+	padding: 2px 5px;
+	border-radius: 999px;
+	background: #f0f6fc;
+	color: #135e96;
+	font-size: 10px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.leadealer-builder__condition-badge .dashicons {
+	flex: 0 0 auto;
+	width: 12px;
+	height: 12px;
+	font-size: 12px;
+}
+
+.leadealer-builder__conditional {
+	padding-bottom: 2px;
+}
+
+.leadealer-builder__condition-rules {
+	display: grid;
+	gap: 10px;
+	margin: 0 0 10px;
+}
+
+.leadealer-builder__condition-rule {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 6px;
+	padding: 9px;
+	border: 1px solid #dcdcde;
+	border-radius: 7px;
+	background: #f9f9f9;
+}
+
+.leadealer-builder__condition-rule > :nth-child(3) {
+	grid-column: 1 / -1;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.leadealer-builder__condition-rule > button {
+	position: absolute;
+}
+
+.leadealer-builder__condition-rule {
+	position: relative;
+}
+
+.leadealer-builder__condition-rule > .button-link-delete {
+	top: -7px;
+	right: -6px;
+	display: grid;
+	place-items: center;
+	width: 22px;
+	height: 22px;
+	border: 1px solid #dcdcde;
+	border-radius: 50%;
+	background: #fff;
+	text-decoration: none;
+	font-size: 16px;
+}
+
+.leadealer-builder__condition-no-value {
+	display: flex;
+	align-items: center;
+	min-height: 30px;
+	color: #646970;
+	font-size: 11px;
+}
+
+.leadealer-control small {
+	color: #646970;
+	font-size: 11px;
+	line-height: 1.4;
+}
+
+.leadealer-builder__privacy-note {
+	margin: -4px 0 12px;
+	font-size: 12px;
+	line-height: 1.45;
+	color: #646970;
+}
+
+/* Lead Vault */
+.leadealer-vault > .description {
+	max-width: 900px;
+}
+
+.leadealer-vault__cards {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+	gap: 12px;
+	max-width: 1100px;
+	margin: 20px 0;
+}
+
+.leadealer-vault__card {
+	background: #fff;
+	border: 1px solid #dcdcde;
+	border-radius: 8px;
+	padding: 16px;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+}
+
+.leadealer-vault__card strong,
+.leadealer-vault__card span,
+.leadealer-vault__card small {
+	display: block;
+}
+
+.leadealer-vault__card strong {
+	font-size: 28px;
+	line-height: 1.1;
+	margin-bottom: 8px;
+}
+
+.leadealer-vault__card span {
+	font-weight: 600;
+}
+
+.leadealer-vault__card small {
+	color: #646970;
+	margin-top: 4px;
+}
+
+.leadealer-vault__tabs {
+	margin: 20px 0 0;
+}
+
+.leadealer-vault__table {
+	margin-top: 16px;
+}
+
+.leadealer-status {
+	display: inline-flex;
+	align-items: center;
+	border-radius: 999px;
+	padding: 3px 9px;
+	font-size: 12px;
+	font-weight: 600;
+	line-height: 1.4;
+	background: #f0f0f1;
+	color: #2c3338;
+}
+
+.leadealer-status--success {
+	background: #edfaef;
+	color: #116329;
+}
+
+.leadealer-status--warning {
+	background: #fcf9e8;
+	color: #8a4b08;
+}
+
+.leadealer-status--error {
+	background: #fcf0f1;
+	color: #8a2424;
+}
+
+.leadealer-status--neutral {
+	background: #f0f0f1;
+	color: #50575e;
+}
+
+.leadealer-vault__detail-head {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+	gap: 20px;
+	max-width: 1100px;
+	margin: 16px 0;
+}
+
+.leadealer-vault__detail-head h2,
+.leadealer-vault__detail-head p {
+	margin-top: 0;
+}
+
+.leadealer-vault__detail-grid {
+	display: grid;
+	grid-template-columns: minmax(0, 1.25fr) minmax(300px, 0.75fr);
+	gap: 24px;
+	max-width: 1100px;
+}
+
+.leadealer-timeline {
+	list-style: none;
+	margin: 0;
+	padding: 0 0 0 8px;
+}
+
+.leadealer-timeline__item {
+	position: relative;
+	display: flex;
+	gap: 12px;
+	padding: 0 0 20px 18px;
+	margin: 0;
+	border-left: 2px solid #dcdcde;
+}
+
+.leadealer-timeline__item:last-child {
+	border-left-color: transparent;
+}
+
+.leadealer-timeline__dot {
+	position: absolute;
+	left: -7px;
+	top: 2px;
+	width: 10px;
+	height: 10px;
+	border: 2px solid #fff;
+	border-radius: 50%;
+	background: #646970;
+	box-shadow: 0 0 0 1px #dcdcde;
+}
+
+.leadealer-timeline__item--success .leadealer-timeline__dot {
+	background: #00a32a;
+}
+
+.leadealer-timeline__item--warning .leadealer-timeline__dot {
+	background: #dba617;
+}
+
+.leadealer-timeline__item--error .leadealer-timeline__dot {
+	background: #d63638;
+}
+
+.leadealer-timeline__item strong,
+.leadealer-timeline__item time {
+	display: block;
+}
+
+.leadealer-timeline__item time {
+	color: #646970;
+	font-size: 12px;
+	margin-top: 4px;
+}
+
+@media (max-width: 960px) {
+	.leadealer-vault__detail-grid {
+		grid-template-columns: 1fr;
+	}
+}
+
+/* Notification settings keep WordPress-native visual language. */
+.leadealer-mail-settings {
+	display: grid;
+	gap: 18px;
+}
+
+.leadealer-mail-settings__grid {
+	display: grid;
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+	gap: 16px 20px;
+}
+
+.leadealer-mail-setting {
+	display: grid;
+	gap: 6px;
+	align-content: start;
+}
+
+.leadealer-mail-setting:first-child,
+.leadealer-mail-setting:nth-child(2) {
+	grid-column: span 1;
+}
+
+.leadealer-mail-setting:nth-child(3) {
+	grid-column: 1 / -1;
+}
+
+.leadealer-mail-setting__label {
+	font-weight: 600;
+	color: #1d2327;
+}
+
+.leadealer-mail-setting .regular-text {
+	width: 100%;
+	max-width: none;
+}
+
+.leadealer-mail-reliability {
+	display: grid;
+	grid-template-columns: 32px minmax(0, 1fr);
+	gap: 10px;
+	align-items: start;
+	padding: 14px 16px;
+	border: 1px solid #c3c4c7;
+	border-left: 4px solid #2271b1;
+	border-radius: 4px;
+	background: #fff;
+}
+
+.leadealer-mail-reliability .dashicons {
+	width: 24px;
+	height: 24px;
+	font-size: 24px;
+	color: #2271b1;
+}
+
+.leadealer-mail-reliability p {
+	margin: 4px 0 0;
+	color: #646970;
+}
+
+.leadealer-mail-storage {
+	display: inline-flex;
+	align-items: flex-start;
+	gap: 6px;
+}
+
+.leadealer-mail-preview {
+	border-top: 1px solid #dcdcde;
+	padding-top: 14px;
+}
+
+.leadealer-mail-preview summary {
+	cursor: pointer;
+	font-weight: 600;
+	color: #1d2327;
+}
+
+.leadealer-mail-preview__frame {
+	display: block;
+	width: 100%;
+	height: 640px;
+	margin-top: 12px;
+	box-sizing: border-box;
+	border: 1px solid #c3c4c7;
+	border-radius: 4px;
+	background: #f6f7f7;
+}
+
+.leadealer-delivery-notice a {
+	margin-left: 4px;
+	font-weight: 600;
+}
+
+@media (max-width: 782px) {
+	.leadealer-mail-settings__grid {
+		grid-template-columns: 1fr;
+	}
+
+	.leadealer-mail-setting:first-child,
+	.leadealer-mail-setting:nth-child(2),
+	.leadealer-mail-setting:nth-child(3) {
+		grid-column: 1;
+	}
+
+	.leadealer-mail-preview__frame {
+		height: 560px;
+	}
+}
+
+/* Smart builder drag and drop. */
+.leadealer-builder__drag {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 24px;
+	height: 24px;
+	padding: 0;
+	border: 0;
+	border-radius: 4px;
+	background: transparent;
+	color: #646970;
+	font-weight: 700;
+	letter-spacing: -2px;
+	cursor: grab;
+	touch-action: none;
+}
+
+.leadealer-builder__drag:hover,
+.leadealer-builder__drag:focus-visible {
+	background: #f0f0f1;
+	color: #135e96;
+	outline: 2px solid transparent;
+	box-shadow: 0 0 0 1px #2271b1;
+}
+
+.leadealer-builder__preview-toolbar .leadealer-builder__drag:hover {
+	color: #135e96;
+}
+
+.leadealer-builder__preview-field.is-drag-source {
+	display: none;
+}
+
+.leadealer-builder__canvas.is-drop-zone {
+	outline: 2px solid #72aee6;
+	outline-offset: 10px;
+	border-radius: 4px;
+}
+
+.leadealer-builder__drop-placeholder {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 7px;
+	min-height: 82px;
+	box-sizing: border-box;
+	border: 2px dashed #2271b1;
+	border-radius: 8px;
+	background: #f0f6fc;
+	color: #135e96;
+	font-size: 12px;
+	font-weight: 600;
+	pointer-events: none;
+}
+
+.leadealer-builder__drag-ghost {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100000;
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	box-sizing: border-box;
+	padding: 10px 12px;
+	border: 1px solid #2271b1;
+	border-radius: 7px;
+	background: #fff;
+	box-shadow: 0 8px 24px rgba(0, 0, 0, .18);
+	color: #1d2327;
+	font-size: 12px;
+	pointer-events: none;
+	will-change: transform;
+}
+
+.leadealer-builder__drag-ghost .dashicons {
+	color: #2271b1;
+}
+
+.leadealer-builder-is-dragging,
+.leadealer-builder-is-dragging * {
+	cursor: grabbing !important;
+	user-select: none !important;
+}
+
+.leadealer-builder__add {
+	user-select: none;
+	touch-action: pan-y;
+}
+
+.leadealer-builder__canvas {
+	min-height: 400px;
+	align-content: start;
+}
+
+.leadealer-builder__canvas.is-drop-zone .leadealer-builder__empty {
+	display: none;
+}
+
+/* Lead Vault behaves like a durable mailbox: the frozen notification is the primary artifact. */
+.leadealer-vault__mailbox .leadealer-vault__mail-subject {
+	font-weight: 600;
+	text-decoration: none;
+}
+
+.leadealer-vault__mailbox .leadealer-vault__mail-subject:hover,
+.leadealer-vault__mailbox .leadealer-vault__mail-subject:focus {
+	text-decoration: underline;
+}
+
+.leadealer-vault__muted {
+	color: #646970;
+	font-size: 12px;
+}
+
+.leadealer-vault__sent-mail {
+	max-width: 1100px;
+	margin: 0 0 28px;
+	border: 1px solid #c3c4c7;
+	border-radius: 8px;
+	background: #fff;
+	overflow: hidden;
+}
+
+.leadealer-vault__sent-mail-head {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+	gap: 20px;
+	padding: 18px 20px;
+	border-bottom: 1px solid #dcdcde;
+	background: #f6f7f7;
+}
+
+.leadealer-vault__sent-mail-head h3,
+.leadealer-vault__sent-mail-head p {
+	margin: 0;
+}
+
+.leadealer-vault__sent-mail-head p {
+	margin-top: 4px;
+	color: #646970;
+}
+
+.leadealer-vault__sent-mail > .description {
+	margin: 18px 20px;
+}
+
+.leadealer-vault__mail-envelope {
+	display: grid;
+	gap: 7px;
+	padding: 16px 20px;
+	border-bottom: 1px solid #dcdcde;
+}
+
+.leadealer-vault__mail-envelope > div {
+	display: grid;
+	grid-template-columns: 82px minmax(0, 1fr);
+	gap: 10px;
+}
+
+.leadealer-vault__mail-envelope span {
+	color: #646970;
+}
+
+.leadealer-vault__mail-envelope strong {
+	min-width: 0;
+	font-weight: 500;
+	overflow-wrap: anywhere;
+}
+
+.leadealer-vault__sent-mail-frame {
+	display: block;
+	width: 100%;
+	height: 660px;
+	box-sizing: border-box;
+	border: 0;
+	background: #f6f7f7;
+}
+
+.leadealer-vault__mail-attachments {
+	padding: 16px 20px 20px;
+	border-top: 1px solid #dcdcde;
+}
+
+.leadealer-vault__mail-attachments h4 {
+	margin: 0 0 12px;
+}
+
+.leadealer-vault__mail-attachment-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+	gap: 12px;
+}
+
+.leadealer-vault__mail-attachment {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	min-width: 0;
+	padding: 9px;
+	border: 1px solid #dcdcde;
+	border-radius: 6px;
+	background: #fff;
+	color: #1d2327;
+	text-decoration: none;
+}
+
+.leadealer-vault__mail-attachment:hover,
+.leadealer-vault__mail-attachment:focus {
+	border-color: #2271b1;
+	color: #135e96;
+}
+
+.leadealer-vault__mail-attachment img {
+	width: 58px;
+	height: 58px;
+	flex: 0 0 58px;
+	object-fit: cover;
+	border-radius: 4px;
+	background: #f0f0f1;
+}
+
+.leadealer-vault__mail-attachment span,
+.leadealer-vault__mail-attachment strong,
+.leadealer-vault__mail-attachment small {
+	display: block;
+	min-width: 0;
+}
+
+.leadealer-vault__mail-attachment strong {
+	overflow-wrap: anywhere;
+}
+
+.leadealer-vault__mail-attachment small {
+	margin-top: 3px;
+	color: #646970;
+}
+
+@media (max-width: 782px) {
+	.leadealer-vault__sent-mail-head {
+		flex-direction: column;
+	}
+
+	.leadealer-vault__mail-envelope > div {
+		grid-template-columns: 1fr;
+		gap: 2px;
+	}
+
+	.leadealer-vault__sent-mail-frame {
+		height: 560px;
+	}
+}
+
+
+.leadealer-vault__attachment-warning {
+	color: #b32d2e;
+}
+
+.leadealer-vault__mail-attachment--missing {
+	border-color: #d63638;
+	background: #fcf0f1;
+	color: #8a2424;
+}
+
+.leadealer-vault__mail-attachment--missing .dashicons {
+	flex: 0 0 20px;
+}

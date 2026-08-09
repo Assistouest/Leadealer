@@ -1,0 +1,245 @@
+.leadealer-form__header,
+.leadealer-form {
+	box-sizing: border-box;
+	width: 100%;
+}
+
+.leadealer-form__header {
+	margin-bottom: 1.5rem;
+}
+
+.leadealer-form__title {
+	margin-block: 0 .55rem;
+}
+
+.leadealer-form__description {
+	margin: 0;
+}
+
+.leadealer-form {
+	display: grid;
+	gap: 1rem;
+}
+
+.leadealer-form__grid {
+	display: grid;
+	grid-template-columns: repeat(12, minmax(0, 1fr));
+	gap: 1rem;
+	align-items: start;
+}
+
+.leadealer-form__field {
+	display: grid;
+	gap: .4rem;
+	min-width: 0;
+	grid-column: span 12;
+}
+
+.leadealer-form__field label,
+.leadealer-form__field legend {
+	font-weight: 600;
+}
+
+.leadealer-form__field fieldset,
+fieldset.leadealer-form__field {
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+.leadealer-form__field input:not([type="checkbox"]):not([type="radio"]),
+.leadealer-form__field select,
+.leadealer-form__field textarea {
+	box-sizing: border-box;
+	font: inherit;
+	max-width: 100%;
+	padding: .75rem;
+	width: 100%;
+}
+
+.leadealer-form__field textarea {
+	min-height: 9rem;
+	resize: vertical;
+}
+
+
+.leadealer-form__field--message {
+	gap: .55rem;
+}
+
+.leadealer-form__message-bubble {
+	position: relative;
+	margin: 0 0 .4rem;
+	border: 1px solid #c3c4c7;
+	border-radius: 1.35rem 1.35rem 1.35rem .6rem;
+	background: #f6f7f7;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, .04);
+	transition: border-color .15s ease, box-shadow .15s ease, background-color .15s ease;
+}
+
+.leadealer-form__message-bubble::after {
+	content: "";
+	position: absolute;
+	z-index: 1;
+	bottom: -.22rem;
+	left: 1rem;
+	width: .95rem;
+	height: .95rem;
+	border-left: 1px solid #c3c4c7;
+	border-bottom: 1px solid #c3c4c7;
+	border-bottom-left-radius: .25rem;
+	background: #f6f7f7;
+	transform: rotate(-32deg) skew(-10deg, -10deg);
+	transition: border-color .15s ease, background-color .15s ease;
+}
+
+.leadealer-form__field--message textarea {
+	position: relative;
+	z-index: 2;
+	display: block;
+	min-height: 8.5rem;
+	padding: 1rem 1.1rem;
+	border: 0;
+	border-radius: inherit;
+	background: transparent;
+	line-height: 1.55;
+	box-shadow: none;
+	transition: none;
+}
+
+.leadealer-form__message-bubble:focus-within {
+	border-color: #2271b1;
+	background: #fff;
+	box-shadow: 0 0 0 1px #2271b1, 0 3px 10px rgba(34, 113, 177, .12);
+}
+
+.leadealer-form__message-bubble:focus-within::after {
+	border-color: #2271b1;
+	background: #fff;
+}
+
+.leadealer-form__field--message textarea:focus {
+	outline: 2px solid transparent;
+	background: transparent;
+	box-shadow: none;
+}
+
+.leadealer-form__field--message textarea::placeholder {
+	color: #646970;
+	opacity: 1;
+}
+
+.leadealer-form__field--check label,
+.leadealer-form__choice {
+	display: flex;
+	align-items: flex-start;
+	gap: .55rem;
+}
+
+.leadealer-form__choices {
+	display: grid;
+	gap: .55rem;
+	margin-top: .4rem;
+}
+
+.leadealer-form__help {
+	margin: 0;
+	font-size: .9em;
+	opacity: .78;
+}
+
+.leadealer-form__consent-legal {
+	margin: 0;
+	font-size: .85em;
+	line-height: 1.45;
+	opacity: .78;
+}
+
+.leadealer-form__phone {
+	display: grid;
+	grid-template-columns: 4.5rem minmax(0, 1fr);
+	gap: .55rem;
+	max-width: 100%;
+}
+
+.leadealer-form__phone-country-wrap {
+	position: relative;
+	display: block;
+	min-width: 0;
+}
+
+.leadealer-form__phone-country-flag {
+	position: absolute;
+	left: .75rem;
+	top: 50%;
+	z-index: 2;
+	font-size: 1.1rem;
+	line-height: 1;
+	pointer-events: none;
+	transform: translateY(-50%);
+}
+
+.leadealer-form__phone-country {
+	min-width: 4.5rem;
+	width: 4.5rem !important;
+	color: transparent;
+}
+
+.leadealer-form__phone-country option {
+	color: CanvasText;
+}
+
+.leadealer-form__phone-number {
+	min-width: 0;
+}
+
+.leadealer-form__trap {
+	position: absolute !important;
+	left: -10000px !important;
+	width: 1px !important;
+	height: 1px !important;
+	overflow: hidden !important;
+}
+
+.leadealer-form__status {
+	min-height: 1.5em;
+}
+
+.leadealer-form__status.is-error {
+	font-weight: 600;
+}
+
+.leadealer-form__submit {
+	justify-self: start;
+}
+
+@media (min-width: 641px) {
+	.leadealer-form__field.leadealer-t-3 { grid-column: span 3; }
+	.leadealer-form__field.leadealer-t-4 { grid-column: span 4; }
+	.leadealer-form__field.leadealer-t-6 { grid-column: span 6; }
+	.leadealer-form__field.leadealer-t-8 { grid-column: span 8; }
+	.leadealer-form__field.leadealer-t-9 { grid-column: span 9; }
+	.leadealer-form__field.leadealer-t-12 { grid-column: span 12; }
+}
+
+@media (min-width: 901px) {
+	.leadealer-form__field.leadealer-d-3 { grid-column: span 3; }
+	.leadealer-form__field.leadealer-d-4 { grid-column: span 4; }
+	.leadealer-form__field.leadealer-d-6 { grid-column: span 6; }
+	.leadealer-form__field.leadealer-d-8 { grid-column: span 8; }
+	.leadealer-form__field.leadealer-d-9 { grid-column: span 9; }
+	.leadealer-form__field.leadealer-d-12 { grid-column: span 12; }
+}
+
+@media (max-width: 640px) {
+	.leadealer-form__field.leadealer-m-3 { grid-column: span 3; }
+	.leadealer-form__field.leadealer-m-4 { grid-column: span 4; }
+	.leadealer-form__field.leadealer-m-6 { grid-column: span 6; }
+	.leadealer-form__field.leadealer-m-8 { grid-column: span 8; }
+	.leadealer-form__field.leadealer-m-9 { grid-column: span 9; }
+	.leadealer-form__field.leadealer-m-12 { grid-column: span 12; }
+}
+
+.leadealer-form__field[hidden] {
+	display: none !important;
+}

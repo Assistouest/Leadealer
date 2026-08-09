@@ -1,0 +1,1474 @@
+# Copyright (C) 2026 Adrien Piron
+# This file is distributed under the GPL-2.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Leadealer 0.7.3\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/leadealer\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-08-09T01:41:59+02:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: leadealer\n"
+
+#. Plugin Name of the plugin
+#: leadealer.php
+#: includes/class-leadealer-admin.php:77
+#: includes/class-leadealer-privacy.php:159
+msgid "Leadealer"
+msgstr ""
+
+#. Description of the plugin
+#: leadealer.php
+msgid "Reliable lead-focused form builder with Lead Vault, conditional logic, cache-safe Proof of Work anti-spam, and native wp_mail() delivery."
+msgstr ""
+
+#. Author of the plugin
+#: leadealer.php
+msgid "Adrien Piron"
+msgstr ""
+
+#. Author URI of the plugin
+#: leadealer.php
+msgid "https://assistouest.fr/"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:78
+#: includes/class-leadealer-plugin.php:152
+msgid "Forms"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:87
+#: includes/class-leadealer-admin.php:92
+#: includes/class-leadealer-admin.php:671
+msgid "Lead Vault"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:93
+msgid "Settings"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:103
+#: includes/class-leadealer-admin.php:662
+#: includes/class-leadealer-admin.php:1061
+msgid "You are not allowed to access this page."
+msgstr ""
+
+#: includes/class-leadealer-admin.php:159
+msgid "Form Builder"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:160
+msgid "Notification"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:161
+msgid "Embed"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:201
+#: includes/class-leadealer-admin.php:296
+msgid "Text"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:202
+#: includes/class-leadealer-admin.php:297
+#: includes/class-leadealer-templates.php:54
+msgid "Email"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:203
+#: includes/class-leadealer-admin.php:298
+#: includes/class-leadealer-templates.php:71
+msgid "Phone"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:204
+#: includes/class-leadealer-admin.php:299
+msgid "Long text"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:205
+#: includes/class-leadealer-admin.php:302
+msgid "Dropdown"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:206
+#: includes/class-leadealer-admin.php:303
+msgid "Radio buttons"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:207
+#: includes/class-leadealer-admin.php:304
+msgid "Checkbox"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:208
+#: includes/class-leadealer-admin.php:305
+msgid "Consent"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:209
+#: includes/class-leadealer-admin.php:300
+msgid "Number"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:210
+#: includes/class-leadealer-admin.php:301
+msgid "URL"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:211
+#: includes/class-leadealer-admin.php:306
+msgid "Photo upload"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:212
+#: includes/class-leadealer-form-repository.php:169
+#: includes/class-leadealer-mail-template.php:122
+msgid "Field"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:214
+msgid "Label"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:215
+msgid "Help text"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:216
+msgid "Field ID"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:217
+msgid "Placeholder"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:218
+msgid "Default value"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:219
+msgid "Autocomplete"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:220
+msgid "Appearance"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:221
+msgid "Standard field"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:222
+msgid "Message bubble"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:223
+msgid "A conversational style inspired by messaging apps. The field remains a native accessible textarea."
+msgstr ""
+
+#: includes/class-leadealer-admin.php:224
+msgid "Required field"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:225
+msgid "Choices, one per line"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:226
+msgid "Delete"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:227
+msgid "Duplicate"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:228
+msgid "Start your form"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:229
+msgid "Drag a field here or choose one on the left."
+msgstr ""
+
+#: includes/class-leadealer-admin.php:230
+msgid "Field settings"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:231
+#: includes/class-leadealer-admin.php:353
+msgid "Form settings"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:232
+msgid "Width"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:233
+#: includes/class-leadealer-admin.php:316
+msgid "Desktop"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:234
+#: includes/class-leadealer-admin.php:317
+msgid "Tablet"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:235
+#: includes/class-leadealer-admin.php:318
+msgid "Mobile"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:236
+msgid "Advanced"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:237
+msgid "Option 1"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:238
+msgid "Option 2"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:239
+msgid "Conditional display"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:240
+msgid "Show this field conditionally"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:241
+msgid "Show when"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:242
+msgid "All rules match"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:243
+msgid "Any rule matches"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:244
+msgid "Add rule"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:245
+msgid "Remove rule"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:246
+msgid "is equal to"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:247
+msgid "is not equal to"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:248
+msgid "is empty"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:249
+msgid "is not empty"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:250
+msgid "contains"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:251
+msgid "does not contain"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:252
+msgid "Checked"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:253
+msgid "Not checked"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:254
+msgid "No value needed"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:255
+msgid "Add another field first"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:256
+msgid "Add another field before creating a condition."
+msgstr ""
+
+#: includes/class-leadealer-admin.php:257
+msgid "Unavailable choice"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:258
+msgid "Missing field"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:259
+msgid "Internal values stay stable when you rename a choice."
+msgstr ""
+
+#: includes/class-leadealer-admin.php:260
+msgid "Mobile defaults to one column. Change it only when the fields stay comfortable to use."
+msgstr ""
+
+#: includes/class-leadealer-admin.php:261
+#: includes/class-leadealer-renderer.php:295
+msgid "Choose…"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:262
+msgid "Drag to move. Use the arrow keys to reorder."
+msgstr ""
+
+#: includes/class-leadealer-admin.php:263
+msgid "Drop field here"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:264
+msgid "Close"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:265
+msgid "copy"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:266
+msgid "name, email, organization…"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:267
+msgid "I agree that my data may be used to respond to my request."
+msgstr ""
+
+#: includes/class-leadealer-admin.php:269
+msgid "A short privacy notice and a link to the WordPress Privacy Policy page are added automatically on the front end."
+msgstr ""
+
+#: includes/class-leadealer-admin.php:270
+msgid "No WordPress Privacy Policy page is configured. The short notice will be shown without a link until you configure one in Settings > Privacy."
+msgstr ""
+
+#: includes/class-leadealer-admin.php:271
+msgid "Replace the current fields with this template? You can undo this action."
+msgstr ""
+
+#: includes/class-leadealer-admin.php:312
+msgid "Visual form builder"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:313
+msgid "Build the layout directly. No column shortcode is needed."
+msgstr ""
+
+#: includes/class-leadealer-admin.php:315
+msgid "Preview size"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:321
+msgid "Undo"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:322
+msgid "Redo"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:328
+msgid "Templates"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:329
+msgid "Start with a ready-made form"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:336
+msgid "Fields"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:337
+msgid "Click or drag to add"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:354
+msgid "Description"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:355
+msgid "Show title and description above the form"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:356
+msgid "Submit button"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:357
+msgid "Select a field in the preview to edit it. Drag fields to reorder them."
+msgstr ""
+
+#: includes/class-leadealer-admin.php:365
+msgid "The front end is rendered server-side and remains safe with full-page caches. Layout is stored with the form and becomes one column automatically on small screens unless you choose otherwise."
+msgstr ""
+
+#: includes/class-leadealer-admin.php:384
+msgid "Form title"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:394
+msgid "Recipient"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:398
+#: includes/class-leadealer-admin.php:933
+msgid "Subject"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:400
+msgid "Supports {{form:title}} and {{field:field_id}} tokens. Leave blank to use the default text in each visitor's language."
+msgstr ""
+
+#: includes/class-leadealer-admin.php:403
+msgid "Success message"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:411
+msgid "Lead Vault protects the submission before email delivery."
+msgstr ""
+
+#: includes/class-leadealer-admin.php:412
+msgid "The message below is frozen when the lead is received. SMTP or mail failures are retried without losing the submitted data."
+msgstr ""
+
+#: includes/class-leadealer-admin.php:416
+msgid "Keep the lead in Lead Vault after successful mail handoff"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:419
+msgid "Preview automatic email"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:420
+msgid "This preview uses the last saved form schema. Fields follow the builder order; conditionally hidden fields are omitted from real notifications."
+msgstr ""
+
+#: includes/class-leadealer-admin.php:421
+msgid "Email notification preview"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:438
+#: includes/class-leadealer-admin.php:536
+msgid "Shortcode"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:440
+msgid "The form uses the responsive layout configured in the builder."
+msgstr ""
+
+#: includes/class-leadealer-admin.php:441
+msgid "You can also insert the “Leadealer Form” block in the block editor."
+msgstr ""
+
+#. translators: %d: Number of notifications whose automatic delivery exhausted all attempts.
+#: includes/class-leadealer-admin.php:597
+#, php-format
+msgid "%d notification could not be handed off. The lead is safe in Lead Vault."
+msgid_plural "%d notifications could not be handed off. The leads are safe in Lead Vault."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-leadealer-admin.php:600
+msgid "Email delivery needs attention."
+msgstr ""
+
+#: includes/class-leadealer-admin.php:602
+msgid "Review delivery"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:623
+msgid "You are not allowed to dismiss this notice."
+msgstr ""
+
+#: includes/class-leadealer-admin.php:675
+msgid "A lead appears here as soon as it passes Proof of Work and server-side validation. Email delivery is tracked separately and can recover without losing the submission."
+msgstr ""
+
+#: includes/class-leadealer-admin.php:692
+msgid "Leads secured"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:692
+msgid "Stored before mail delivery"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:693
+#: includes/class-leadealer-admin.php:720
+msgid "Mail handed off"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:693
+msgid "Accepted by wp_mail()"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:694
+#: includes/class-leadealer-admin.php:717
+msgid "Recovering"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:694
+msgid "Queued or waiting for retry"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:695
+#: includes/class-leadealer-admin.php:1028
+msgid "Needs attention"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:695
+msgid "Dead-letter leads"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:696
+msgid "Recovered"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:696
+msgid "Succeeded after more than one attempt"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:716
+msgid "All leads"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:718
+msgid "Delivery issues"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:719
+msgid "Dead letter"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:723
+msgid "Lead Vault filters"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:743
+#: includes/class-leadealer-admin.php:772
+#: includes/class-leadealer-plugin.php:153
+#: assets/js/block.js:23
+#: assets/js/block.js:25
+msgid "Form"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:745
+msgid "All forms"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:750
+msgid "Filter"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:772
+msgid "ID"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:772
+msgid "Received"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:772
+msgid "Lead"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:772
+msgid "Mail delivery"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:772
+msgid "Attempts"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:775
+msgid "No leads match this view."
+msgstr ""
+
+#: includes/class-leadealer-admin.php:791
+msgid "Secured"
+msgstr ""
+
+#. translators: 1: Current page. 2: Total pages. 3: Total leads matching this view.
+#: includes/class-leadealer-admin.php:803
+#, php-format
+msgid "Page %1$d of %2$d (%3$s leads)"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:819
+msgid "Previous"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:822
+msgid "Next"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:838
+msgid "Lead not found."
+msgstr ""
+
+#: includes/class-leadealer-admin.php:855
+msgid "Back to Lead Vault"
+msgstr ""
+
+#. translators: %d: Lead ID.
+#: includes/class-leadealer-admin.php:857
+#, php-format
+msgid "Lead #%d"
+msgstr ""
+
+#. translators: %d: Lead ID.
+#: includes/class-leadealer-admin.php:858
+msgid "Lead secured"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:862
+msgid "Submitted data"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:867
+msgid "Submitted values were redacted after successful mail handoff."
+msgstr ""
+
+#: includes/class-leadealer-admin.php:878
+msgid "Mail status"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:879
+msgid "Mail attempts"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:883
+msgid "Next recovery"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:887
+msgid "Last mail error"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:894
+msgid "Start a new delivery cycle"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:899
+msgid "Reliability timeline"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:924
+msgid "What was actually sent"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:927
+msgid "This lead was successfully handed off, but the notification snapshot was removed afterward per this form’s storage setting (the lead itself is not affected)."
+msgstr ""
+
+#: includes/class-leadealer-admin.php:929
+msgid "No notification has been sent yet for this lead."
+msgstr ""
+
+#: includes/class-leadealer-admin.php:932
+msgid "To"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:934
+msgid "Sent notification content"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:959
+#: includes/class-leadealer-admin.php:996
+msgid "This attachment is no longer available."
+msgstr ""
+
+#: includes/class-leadealer-admin.php:985
+msgid "You are not allowed to view this attachment."
+msgstr ""
+
+#: includes/class-leadealer-admin.php:1020
+msgid "Queued"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:1022
+msgid "Sending"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:1024
+msgid "Recovery scheduled"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:1026
+msgid "Handed off"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:1030
+msgid "Unknown"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:1068
+msgid "Leadealer Settings"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:1072
+msgid "Proof of Work difficulty"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:1072
+msgid "17 is the recommended default. Higher values increase browser work exponentially."
+msgstr ""
+
+#: includes/class-leadealer-admin.php:1073
+msgid "Lead Vault retention"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:1073
+msgid "days"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:1073
+msgid "Use 0 to keep handed-off leads indefinitely. Unresolved deliveries are never removed by age."
+msgstr ""
+
+#: includes/class-leadealer-admin.php:1074
+msgid "Recovery worker"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:1078
+msgid "Scheduled"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:1082
+msgid "Not scheduled"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:1083
+msgid "Leadealer scans queued and stale deliveries every fifteen minutes in addition to individual retry events and the crash watchdog."
+msgstr ""
+
+#: includes/class-leadealer-admin.php:1087
+msgid "WP-Cron is disabled."
+msgstr ""
+
+#: includes/class-leadealer-admin.php:1087
+msgid "For automatic recovery, make sure a real system cron calls wp-cron.php regularly."
+msgstr ""
+
+#: includes/class-leadealer-admin.php:1089
+msgid "Uninstall"
+msgstr ""
+
+#: includes/class-leadealer-admin.php:1089
+msgid "Delete forms, Lead Vault entries, delivery timelines, security tables, and plugin options when the plugin is deleted."
+msgstr ""
+
+#: includes/class-leadealer-entry-repository.php:57
+#: includes/class-leadealer-entry-repository.php:111
+msgid "The message could not be stored."
+msgstr ""
+
+#: includes/class-leadealer-entry-repository.php:86
+msgid "Proof of Work and server validation passed; lead stored safely before mail delivery."
+msgstr ""
+
+#: includes/class-leadealer-entry-repository.php:92
+msgid "Notification snapshot created and queued for delivery."
+msgstr ""
+
+#: includes/class-leadealer-entry-repository.php:181
+msgid "The stored lead could not be prepared for delivery."
+msgstr ""
+
+#: includes/class-leadealer-form-repository.php:240
+#: includes/class-leadealer-templates.php:151
+msgid "How can we help?"
+msgstr ""
+
+#: includes/class-leadealer-form-repository.php:242
+#: includes/class-leadealer-templates.php:153
+msgid "Describe your request, the issue you are experiencing, or your project…"
+msgstr ""
+
+#: includes/class-leadealer-form-repository.php:314
+#: includes/class-leadealer-templates.php:88
+msgid "What do you need?"
+msgstr ""
+
+#: includes/class-leadealer-form-repository.php:315
+#: includes/class-leadealer-templates.php:96
+msgid "Home computer support"
+msgstr ""
+
+#: includes/class-leadealer-form-repository.php:316
+#: includes/class-leadealer-templates.php:100
+msgid "Computer repair"
+msgstr ""
+
+#: includes/class-leadealer-form-repository.php:317
+#: includes/class-leadealer-templates.php:104
+msgid "WordPress website creation"
+msgstr ""
+
+#: includes/class-leadealer-form-repository.php:318
+#: includes/class-leadealer-templates.php:108
+msgid "Quote request or another question"
+msgstr ""
+
+#: includes/class-leadealer-form-repository.php:399
+msgid "Attach a photo of the error"
+msgstr ""
+
+#: includes/class-leadealer-form-repository.php:400
+msgid "A screenshot or photo can help us understand the issue faster."
+msgstr ""
+
+#: includes/class-leadealer-form-repository.php:589
+#: includes/class-leadealer-mailer.php:119
+msgid "New message from {{form:title}}"
+msgstr ""
+
+#: includes/class-leadealer-form-repository.php:590
+#: includes/class-leadealer-renderer.php:198
+msgid "Your request has been received."
+msgstr ""
+
+#: includes/class-leadealer-form-repository.php:591
+msgid "Send"
+msgstr ""
+
+#: includes/class-leadealer-form-repository.php:606
+msgid "Invalid form data."
+msgstr ""
+
+#: includes/class-leadealer-form-repository.php:618
+msgid "The form contains unexpected data. Please reload and try again."
+msgstr ""
+
+#: includes/class-leadealer-form-repository.php:636
+msgid "One or more fields are invalid."
+msgstr ""
+
+#. translators: %s: Field label.
+#: includes/class-leadealer-form-repository.php:645
+#, php-format
+msgid "%s must contain a valid email address."
+msgstr ""
+
+#. translators: %s: Field label.
+#: includes/class-leadealer-form-repository.php:652
+#, php-format
+msgid "%s must contain a valid URL."
+msgstr ""
+
+#. translators: %s: Field label.
+#: includes/class-leadealer-form-repository.php:659
+#, php-format
+msgid "%s must contain a number."
+msgstr ""
+
+#: includes/class-leadealer-form-repository.php:666
+#: includes/class-leadealer-form-repository.php:712
+msgid "A field is too long."
+msgstr ""
+
+#: includes/class-leadealer-form-repository.php:675
+msgid "An invalid choice was submitted."
+msgstr ""
+
+#. translators: %s: Field label.
+#: includes/class-leadealer-form-repository.php:718
+#, php-format
+msgid "%s is required."
+msgstr ""
+
+#: includes/class-leadealer-form-repository.php:1088
+#: includes/class-leadealer-form-repository.php:1093
+#: includes/class-leadealer-form-repository.php:1113
+#: includes/class-leadealer-form-repository.php:1134
+#: includes/class-leadealer-form-repository.php:1141
+#: includes/class-leadealer-renderer.php:199
+msgid "Please enter a valid phone number."
+msgstr ""
+
+#: includes/class-leadealer-image-processor.php:30
+#: includes/class-leadealer-image-processor.php:49
+#: includes/class-leadealer-image-processor.php:53
+#: includes/class-leadealer-image-processor.php:215
+msgid "This image could not be read. Please try a different photo."
+msgstr ""
+
+#: includes/class-leadealer-image-processor.php:35
+#: includes/class-leadealer-image-processor.php:40
+#: includes/class-leadealer-image-processor.php:44
+msgid "This file type is not supported. Please use JPEG, PNG, or WEBP."
+msgstr ""
+
+#: includes/class-leadealer-image-processor.php:315
+#: includes/class-leadealer-image-processor.php:334
+#: includes/class-leadealer-rest-controller.php:492
+#: includes/class-leadealer-upload-repository.php:88
+#: includes/class-leadealer-upload-repository.php:116
+#: includes/class-leadealer-upload-repository.php:128
+msgid "The photo could not be stored. Please try again."
+msgstr ""
+
+#: includes/class-leadealer-mail-template.php:28
+msgid "Form submission"
+msgstr ""
+
+#: includes/class-leadealer-mail-template.php:40
+msgid "New form submission"
+msgstr ""
+
+#. translators: 1: Form title. 2: Site name.
+#: includes/class-leadealer-mail-template.php:43
+#, php-format
+msgid "%1$s on %2$s"
+msgstr ""
+
+#. translators: %s: Local date and time when the form was received.
+#: includes/class-leadealer-mail-template.php:49
+#, php-format
+msgid "Received on %s"
+msgstr ""
+
+#: includes/class-leadealer-mail-template.php:146
+msgid "Yes"
+msgstr ""
+
+#: includes/class-leadealer-mail-template.php:146
+msgid "No"
+msgstr ""
+
+#: includes/class-leadealer-mail-template.php:155
+msgid "See the attached photo."
+msgstr ""
+
+#: includes/class-leadealer-mail-template.php:236
+msgid "The message entered by the visitor will appear here."
+msgstr ""
+
+#: includes/class-leadealer-mail-template.php:251
+msgid "Example value"
+msgstr ""
+
+#: includes/class-leadealer-mail-template.php:261
+msgid "No submitted field is available for this notification."
+msgstr ""
+
+#: includes/class-leadealer-mailer.php:134
+msgid "Invalid recipient email address."
+msgstr ""
+
+#: includes/class-leadealer-mailer.php:161
+msgid "Maximum automatic delivery attempts reached."
+msgstr ""
+
+#. translators: %d: Mail attempt number.
+#: includes/class-leadealer-mailer.php:187
+#, php-format
+msgid "Mail delivery attempt %d started."
+msgstr ""
+
+#: includes/class-leadealer-mailer.php:196
+msgid "The stored recipient email address is invalid. Update the form notification and retry manually."
+msgstr ""
+
+#: includes/class-leadealer-mailer.php:219
+msgid "Notification handed off successfully to the WordPress mail transport."
+msgstr ""
+
+#: includes/class-leadealer-mailer.php:227
+msgid "Submitted field values were removed after successful mail handoff according to the form storage setting."
+msgstr ""
+
+#: includes/class-leadealer-mailer.php:233
+msgid "wp_mail() returned false."
+msgstr ""
+
+#: includes/class-leadealer-mailer.php:274
+msgid "You are not allowed to retry this message."
+msgstr ""
+
+#: includes/class-leadealer-mailer.php:285
+msgid "A new delivery cycle was started manually by an administrator."
+msgstr ""
+
+#: includes/class-leadealer-mailer.php:332
+msgid "A previously attached photo could not be found and was not sent with this notification."
+msgstr ""
+
+#: includes/class-leadealer-mailer.php:378
+msgid "Notification snapshot refreshed from the current form settings."
+msgstr ""
+
+#. translators: %d: Number of seconds before the next delivery attempt.
+#: includes/class-leadealer-mailer.php:437
+#, php-format
+msgid "Automatic recovery scheduled in %d seconds."
+msgstr ""
+
+#: includes/class-leadealer-mailer.php:460
+msgid "Automatic delivery stopped. The lead is safe in Lead Vault and requires administrator attention."
+msgstr ""
+
+#: includes/class-leadealer-mailer.php:480
+msgid "WordPress could not schedule the crash-recovery watchdog."
+msgstr ""
+
+#: includes/class-leadealer-plugin.php:154
+msgid "Add New"
+msgstr ""
+
+#: includes/class-leadealer-plugin.php:155
+msgid "Add New Form"
+msgstr ""
+
+#: includes/class-leadealer-plugin.php:156
+msgid "Edit Form"
+msgstr ""
+
+#: includes/class-leadealer-plugin.php:157
+msgid "New Form"
+msgstr ""
+
+#: includes/class-leadealer-plugin.php:158
+msgid "View Form"
+msgstr ""
+
+#: includes/class-leadealer-plugin.php:159
+msgid "Search Forms"
+msgstr ""
+
+#: includes/class-leadealer-plugin.php:160
+msgid "No forms found."
+msgstr ""
+
+#: includes/class-leadealer-plugin.php:161
+msgid "No forms found in Trash."
+msgstr ""
+
+#: includes/class-leadealer-plugin.php:208
+msgid "Every fifteen minutes (Leadealer)"
+msgstr ""
+
+#: includes/class-leadealer-privacy.php:50
+#: includes/class-leadealer-privacy.php:65
+#: includes/class-leadealer-privacy.php:112
+msgid "Leadealer entries"
+msgstr ""
+
+#: includes/class-leadealer-privacy.php:104
+msgid "An uploaded photo (not included in this export; contact the site owner if a copy is required)."
+msgstr ""
+
+#: includes/class-leadealer-privacy.php:158
+msgid "When a visitor submits a Leadealer form, the site stores the accepted lead before attempting email delivery. The Lead Vault can retain submitted fields, a frozen notification snapshot needed for retry recovery, the form identifier, a random submission identifier, a one-way hash used to recognize safe browser retries, mail delivery status, delivery timeline events, and timestamps. After successful mail handoff, submitted values can be retained or removed according to the form storage setting. The plugin uses a short-lived cryptographic Proof of Work challenge and a temporary HMAC-derived network identifier for abuse prevention. The raw IP address is not stored by Leadealer."
+msgstr ""
+
+#: includes/class-leadealer-renderer.php:129
+msgid "Leadealer: form not found or not published."
+msgstr ""
+
+#: includes/class-leadealer-renderer.php:174
+msgid "Leave this field empty"
+msgstr ""
+
+#: includes/class-leadealer-renderer.php:177
+msgid "JavaScript is required to send this protected form."
+msgstr ""
+
+#: includes/class-leadealer-renderer.php:193
+msgid "Verification…"
+msgstr ""
+
+#: includes/class-leadealer-renderer.php:194
+msgid "Finishing the photo upload…"
+msgstr ""
+
+#: includes/class-leadealer-renderer.php:195
+msgid "Unable to start anti-spam verification."
+msgstr ""
+
+#: includes/class-leadealer-renderer.php:196
+msgid "Proof of Work could not be completed."
+msgstr ""
+
+#: includes/class-leadealer-renderer.php:197
+msgid "Your request could not be submitted."
+msgstr ""
+
+#: includes/class-leadealer-renderer.php:200
+msgid "Your browser cannot create a secure submission token. Please update it and try again."
+msgstr ""
+
+#: includes/class-leadealer-renderer.php:201
+#: includes/class-leadealer-renderer.php:339
+msgid "Country calling code"
+msgstr ""
+
+#: includes/class-leadealer-renderer.php:222
+msgid "Uploading…"
+msgstr ""
+
+#: includes/class-leadealer-renderer.php:223
+msgid "Converting photo…"
+msgstr ""
+
+#: includes/class-leadealer-renderer.php:224
+#: includes/class-leadealer-renderer.php:358
+msgid "Remove"
+msgstr ""
+
+#: includes/class-leadealer-renderer.php:225
+msgid "Replace photo"
+msgstr ""
+
+#: includes/class-leadealer-renderer.php:226
+msgid "The photo could not be uploaded. Please try again."
+msgstr ""
+
+#. translators: %s: Maximum upload size, e.g. "10 MB".
+#: includes/class-leadealer-renderer.php:229
+#: includes/class-leadealer-rest-controller.php:470
+#, php-format
+msgid "The photo is too large. Maximum size is %s."
+msgstr ""
+
+#: includes/class-leadealer-renderer.php:232
+msgid "This file type is not supported. Please use JPEG, PNG, WEBP, or HEIC."
+msgstr ""
+
+#: includes/class-leadealer-renderer.php:233
+msgid "This photo could not be converted. Please try a different photo or export it as JPEG."
+msgstr ""
+
+#. translators: %s: Maximum upload size, e.g. "10 MB".
+#: includes/class-leadealer-renderer.php:349
+#, php-format
+msgid "JPEG, PNG, WEBP, or HEIC. Maximum %s."
+msgstr ""
+
+#: includes/class-leadealer-renderer.php:392
+msgid "Your data is used only to handle your request."
+msgstr ""
+
+#: includes/class-leadealer-renderer.php:395
+msgid "Privacy Policy"
+msgstr ""
+
+#. translators: %s: linked Privacy Policy label.
+#: includes/class-leadealer-renderer.php:398
+#, php-format
+msgid "Your data is used only to handle your request. Your rights are explained in our %s."
+msgstr ""
+
+#: includes/class-leadealer-rest-controller.php:171
+#: includes/class-leadealer-rest-controller.php:210
+#: includes/class-leadealer-rest-controller.php:419
+msgid "Form not found."
+msgstr ""
+
+#: includes/class-leadealer-rest-controller.php:178
+msgid "Too many requests. Please try again shortly."
+msgstr ""
+
+#: includes/class-leadealer-rest-controller.php:217
+msgid "Too many submissions. Please try again later."
+msgstr ""
+
+#: includes/class-leadealer-rest-controller.php:235
+#: includes/class-leadealer-rest-controller.php:241
+#: includes/class-leadealer-rest-controller.php:551
+msgid "Invalid request body."
+msgstr ""
+
+#: includes/class-leadealer-rest-controller.php:256
+msgid "Invalid submission identifier."
+msgstr ""
+
+#: includes/class-leadealer-rest-controller.php:267
+msgid "This submission cannot be resumed. Please reload the form and try again."
+msgstr ""
+
+#: includes/class-leadealer-rest-controller.php:285
+#: includes/class-leadealer-rest-controller.php:452
+msgid "This anti-spam proof has already been used. Please try again."
+msgstr ""
+
+#: includes/class-leadealer-rest-controller.php:306
+msgid "Your request could not be stored safely. Please try again."
+msgstr ""
+
+#: includes/class-leadealer-rest-controller.php:365
+msgid "This lead was submitted without a photo for an optional photo field that was visible to the visitor."
+msgstr ""
+
+#: includes/class-leadealer-rest-controller.php:376
+msgid "The attached photo could not be linked to this lead. The lead itself was still stored successfully."
+msgstr ""
+
+#: includes/class-leadealer-rest-controller.php:424
+msgid "The upload must be sent as a file, not JSON."
+msgstr ""
+
+#: includes/class-leadealer-rest-controller.php:436
+msgid "This form does not accept a file for that field."
+msgstr ""
+
+#: includes/class-leadealer-rest-controller.php:441
+msgid "Too many uploads. Please try again shortly."
+msgstr ""
+
+#: includes/class-leadealer-rest-controller.php:457
+#: includes/class-leadealer-rest-controller.php:462
+msgid "Please attach exactly one photo."
+msgstr ""
+
+#: includes/class-leadealer-rest-controller.php:536
+msgid "The request must use JSON."
+msgstr ""
+
+#: includes/class-leadealer-rest-controller.php:541
+#: includes/class-leadealer-rest-controller.php:546
+msgid "The request is too large."
+msgstr ""
+
+#: includes/class-leadealer-rest-controller.php:556
+msgid "The request contains unexpected data."
+msgstr ""
+
+#: includes/class-leadealer-security.php:33
+#: includes/class-leadealer-security.php:47
+msgid "Anti-spam verification is temporarily unavailable."
+msgstr ""
+
+#: includes/class-leadealer-security.php:71
+#: includes/class-leadealer-security.php:76
+#: includes/class-leadealer-security.php:81
+msgid "The anti-spam proof is invalid."
+msgstr ""
+
+#: includes/class-leadealer-security.php:87
+msgid "The anti-spam proof could not be verified."
+msgstr ""
+
+#: includes/class-leadealer-security.php:95
+#: includes/class-leadealer-security.php:101
+#: includes/class-leadealer-security.php:105
+msgid "The anti-spam challenge is invalid."
+msgstr ""
+
+#: includes/class-leadealer-security.php:110
+msgid "This anti-spam proof cannot be used for this action."
+msgstr ""
+
+#: includes/class-leadealer-security.php:114
+msgid "The anti-spam challenge does not match this form."
+msgstr ""
+
+#: includes/class-leadealer-security.php:120
+msgid "The anti-spam challenge has expired. Please try again."
+msgstr ""
+
+#: includes/class-leadealer-security.php:128
+msgid "The anti-spam proof is incomplete."
+msgstr ""
+
+#: includes/class-leadealer-templates.php:31
+msgid "IT services contact"
+msgstr ""
+
+#: includes/class-leadealer-templates.php:32
+msgid "A ready-made contact form for support, computer repair, WordPress projects, and quote requests."
+msgstr ""
+
+#: includes/class-leadealer-templates.php:37
+msgid "Full name"
+msgstr ""
+
+#: includes/class-leadealer-templates.php:39
+msgid "First and last name"
+msgstr ""
+
+#: includes/class-leadealer-templates.php:122
+msgid "Service address"
+msgstr ""
+
+#: includes/class-leadealer-templates.php:124
+msgid "Street address, postal code and city"
+msgstr ""
+
+#: includes/class-leadealer-templates.php:168
+msgid "I agree that my data may be used to contact me."
+msgstr ""
+
+#: includes/class-leadealer-upload-repository.php:154
+#: includes/class-leadealer-upload-repository.php:159
+#: includes/class-leadealer-upload-repository.php:164
+#: includes/class-leadealer-upload-repository.php:168
+#: includes/class-leadealer-upload-repository.php:173
+#: includes/class-leadealer-upload-repository.php:178
+#: includes/class-leadealer-upload-repository.php:187
+msgid "The attached photo could not be verified. Please attach it again."
+msgstr ""
+
+#: includes/class-leadealer-upload-repository.php:183
+msgid "The attached photo does not match this form. Please attach it again."
+msgstr ""
+
+#: includes/class-leadealer-upload-repository.php:191
+msgid "The attached photo has expired. Please attach it again."
+msgstr ""
+
+#: includes/class-leadealer-upload-repository.php:204
+msgid "The attached photo could not be found. Please attach it again."
+msgstr ""
+
+#: assets/js/block.js:10
+msgid "Choose a form"
+msgstr ""
+
+#: assets/js/block.js:16
+msgid "Leadealer Form"
+msgstr ""
+
+#: assets/js/block.js:31
+#, js-format
+msgid "Leadealer Form: %s"
+msgstr ""
+
+#: assets/js/block.js:31
+msgid "Choose a form in the block settings."
+msgstr ""
+
+#: includes/class-leadealer-privacy.php
+msgid "When lead storage is disabled, claimed photo attachments can remain in Leadealer private storage for up to 24 hours after WordPress accepts the email so asynchronous mail transports can still read them. Scheduled cleanup then removes those files."
+msgstr ""
+
+#, php-format
+msgid "%d verified photo prepared for email delivery."
+msgid_plural "%d verified photos prepared for email delivery."
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "A photo selected by the visitor is not linked to this lead, so the notification was not sent without it."
+msgstr ""
+
+msgid "A selected photo is missing from the stored lead. The email was not sent without its attachment."
+msgstr ""
+
+msgid "A stored photo could not be verified. The email was not sent without its attachment."
+msgstr ""
+
+msgid "A stored photo failed its integrity checks, so the notification was not sent without it."
+msgstr ""
+
+msgid "A verified photo became unavailable immediately before mail delivery."
+msgstr ""
+
+msgid "Attachments"
+msgstr ""
+
+msgid "Email backup"
+msgstr ""
+
+msgid "Expected photo missing"
+msgstr ""
+
+msgid "Keep the complete lead and email backup in Lead Vault after successful mail handoff"
+msgstr ""
+
+msgid "Lead Vault recorded a photo for this email, but the stored attachment is unavailable. Delivery is blocked until the issue is resolved."
+msgstr ""
+
+msgid "Message"
+msgstr ""
+
+msgid "No notification snapshot is available for this lead."
+msgstr ""
+
+msgid "One or more expected photos are unavailable."
+msgstr ""
+
+msgid "Photo unavailable"
+msgstr ""
+
+msgid "Recommended for delivery protection: the Vault remains a readable copy of the notification and its photos even if the inbox message is lost or filtered."
+msgstr ""
+
+msgid "Reply-To"
+msgstr ""
+
+msgid "Stored email notification"
+msgstr ""
+
+msgid "The mail transport accepted the notification before WordPress initialized PHPMailer. Leadealer supplied the verified attachment paths, but the final transport attachment list could not be inspected."
+msgstr ""
+
+msgid "The mail transport refused a verified photo attachment."
+msgstr ""
+
+msgid "The stored file failed its integrity check."
+msgstr ""
+
+msgid "This is the frozen notification kept by Lead Vault independently from inbox delivery."
+msgstr ""
+
+msgid "This lead was handed off successfully, but its notification snapshot was removed because this form was configured not to retain completed leads."
+msgstr ""
+
+msgid "When lead storage is enabled, accepted photo attachments are kept in Leadealer private storage with the Lead Vault entry until that lead is erased or removed by the configured retention cleanup. When lead storage is disabled, claimed photo attachments can remain for up to 24 hours after WordPress accepts the email so asynchronous mail transports can still read them, then scheduled cleanup removes the files."
+msgstr ""
+
+#: includes/class-leadealer-rest-controller.php:683
+#: includes/class-leadealer-rest-controller.php:716
+msgid "A selected photo was not transmitted completely. Please attach it again."
+msgstr ""
+
+#: includes/class-leadealer-rest-controller.php:493
+msgid "Email delivery was blocked because an expected photo could not be linked safely to the Lead Vault entry."
+msgstr ""
+
+#: includes/class-leadealer-renderer.php:194
+msgid "Finishing photo preparation…"
+msgstr ""
+
+#: includes/class-leadealer-renderer.php:221
+msgid "Photo ready to send."
+msgstr ""
+
+#: includes/class-leadealer-renderer.php:220
+msgid "Preparing photo…"
+msgstr ""
+
+#: includes/class-leadealer-rest-controller.php:485
+msgid "The attached photo could not be linked safely to this lead. Email delivery was blocked so the message cannot be sent without its photo."
+msgstr ""
+
+#: includes/class-leadealer-renderer.php:226
+msgid "The photo could not be prepared or transmitted. Please try again."
+msgstr ""
+
+#: includes/class-leadealer-rest-controller.php:674
+#: includes/class-leadealer-rest-controller.php:708
+msgid "The request contains an unexpected photo."
+msgstr ""
+
+#: includes/class-leadealer-rest-controller.php:253
+msgid "The selected photo was not transmitted with the form. Please try again."
+msgstr ""
